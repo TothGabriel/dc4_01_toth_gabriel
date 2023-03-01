@@ -4,7 +4,7 @@
 // du tableau.
 
 function displayAlphabet(string) {
-    alphabet = string.split('');
+    var alphabet = string.split('');
     for (var i = 0; i < alphabet.length; i++) {
         var codeascii = alphabet[i].charCodeAt(0) - 32;
         var lettremaj = String.fromCharCode(codeascii);
